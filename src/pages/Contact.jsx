@@ -12,13 +12,13 @@ const onHover = () => {
   return [hovering, onHoverProps];
 };
 
-const About = () => {
+const Contact = () => {
   const [divAhovering, DivAHoveringProps] = onHover();
   return (
     <div className="wrapper">
       <Link to="/">
         <div
-          className="absolute top-20 lg:top-40 right-20 lg:right-32 cursor-pointer transition ease-in-out duration-300 hover:-translate-x-8 font-bold "
+          className="absolute top-20 lg:top-40 right-20 lg:right-32 cursor-pointer transition ease-in-out duration-200 hover:-translate-x-8 font-bold"
           {...DivAHoveringProps}
         >
           <h1 className="transition ease-in-out duration-300 hover:text-red-600">• Debosmit{!divAhovering ? "" : " Choudhury"}</h1>
@@ -31,7 +31,7 @@ const About = () => {
           transition={{ duration: 1 }}
           className="font-bold text-5xl lg:text-8xl mb-4"
         >
-          I design & build
+          Let's make
         </motion.h1>
         <motion.h1
           initial={{ opacity: 0 }}
@@ -39,11 +39,11 @@ const About = () => {
           transition={{ duration: 1 }}
           className="font-bold text-5xl lg:text-8xl"
         >
-          digital products
+          something great!
         </motion.h1>
       </div>
     </div>
   );
 };
 
-export default About;
+export default Contact;
