@@ -28,30 +28,34 @@ const Work = () => {
         </div>
       </Link>
       <div className="container py-40">
-      
-      {projData.map((data)=> {
-        return (
-          <div className="flex flex-col h-full justify-center py-8 px-4 lg:ml-24 lg:p-20 items-center lg:items-start lg:hover:translate-x-14 transition-all ease-in-out duration-300 cursor-pointer">
-          
-            <motion.h1
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1 }}
-              className="font-bold text-5xl lg:text-7xl mb-4"
+        {projData.map((data) => {
+          return (
+            <div
+              className="flex flex-col h-full justify-center py-8 px-4 lg:ml-24 lg:p-20 items-center lg:items-start lg:hover:translate-x-14 transition-all ease-in-out duration-300 cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = data.link;
+              }}
             >
-              {data.title}
-            </motion.h1>
-            <motion.h1
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1 }}
-              className="font-bold text-lg lg:text-xl text-red-600"
-            >
-              {data.description}
-            </motion.h1>
-          </div>
-        );
-      })}
+              <motion.h1
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
+                className="font-bold text-5xl lg:text-7xl mb-4"
+              >
+                {data.title}
+              </motion.h1>
+              <motion.h1
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
+                className="font-bold text-lg lg:text-xl text-red-600"
+              >
+                {data.description}
+              </motion.h1>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

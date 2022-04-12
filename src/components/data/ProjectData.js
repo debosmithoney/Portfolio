@@ -7,7 +7,7 @@ export const projData = [
   {
     title: "BuilderBase",
     description: "A Brochure webpage for a construction company",
-    link: "https://builderbase.com/",
+    link: "https://builderbase.netlify.app/",
   },
   {
     title: "CryptoWallet",
