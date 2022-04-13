@@ -28,7 +28,7 @@ const Home = () => {
           alt=""
           className="opacity-70 hidden lg:block"
         />
-        <div className="navs h-full flex flex-col gap-6 items-start p-20 justify-center lg:ml-24  relative">
+        <div className="navs h-full flex flex-col gap-6 items-start p-20 justify-center xl:ml-24  relative">
           <motion.h1
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -67,7 +67,7 @@ const Home = () => {
           alt=""
           className=" object-cover opacity-50 bg-gradient-to-tl from-white to-black"
         />
-        <div className="absolute bg-transparent h-full flex flex-col gap-6 items-start p-20 justify-center text-7xl">
+        <div className="absolute bg-transparent h-full flex flex-col gap-6 items-start p-20 justify-center text-6xl md:text-7xl">
           {textChange ? (
             <>
               <Link to="about" className="bg-transparent ">
