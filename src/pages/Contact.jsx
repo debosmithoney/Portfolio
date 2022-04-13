@@ -29,7 +29,7 @@ const Contact = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className="font-bold text-5xl lg:text-8xl mb-4"
+          className="font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl mb-4"
         >
           Let's make
         </motion.h1>
@@ -37,7 +37,7 @@ const Contact = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className="font-bold text-5xl lg:text-8xl"
+          className="font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl"
         >
           something great!
         </motion.h1>

@@ -29,7 +29,7 @@ const About = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className="font-bold text-5xl lg:text-8xl mb-4"
+          className="font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl mb-4"
         >
           I design & build
         </motion.h1>
@@ -37,7 +37,7 @@ const About = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className="font-bold text-5xl lg:text-8xl"
+          className="font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl"
         >
           digital products
         </motion.h1>
