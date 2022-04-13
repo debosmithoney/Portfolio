@@ -16,7 +16,7 @@ const Work = () => {
   const [divAhovering, DivAHoveringProps] = onHover();
 
   return (
-    <div className="wrapper">
+    <div className="wrapper overflow-hidden">
       <Link to="/">
         <div
           className="absolute top-20 lg:top-40 right-20 lg:right-32 cursor-pointer transition-all ease-in-out duration-300 hover:-translate-x-8 font-bold z-50"

@@ -18,7 +18,7 @@ const Home = () => {
   const [divCHovering, DivCHoveringProps] = onHover();
   const [textChange, setTextChange] = useState(false);
   return (
-    <div className="wrapper h-screen relative ">
+    <div className="wrapper h-screen relative overflow-hidden ">
       <div className="container h-full hidden lg:flex ">
         <motion.img
           initial={{ opacity: 0, scale: 1.5 }}
