@@ -52,7 +52,7 @@ const About = () => {
             one of them being a{" "}
             <a
               href="https://www.instagram.com/_snap.it___/"
-              className="text-red-600"
+              className="text-red-600 hover:text-white transition-all ease-in-out duration-300"
             >
               Photographer
             </a>{" "}
