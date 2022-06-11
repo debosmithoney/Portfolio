@@ -62,7 +62,7 @@ const About = () => {
             Read more and get to know me by clicking on the link bellow <br />{" "}
             <br />
             <a
-              href={Resume}
+              href={Resume} download
               className="cursor-pointer transition ease-in-out duration-300 text-red-600 hover:text-white font-bold"
             >
               My Resume (82kb)
